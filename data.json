@@ -1,0 +1,55 @@
+{
+    "name": "VExhibit message ",
+    "param1": "sending data at completing of each child",
+    "param2": {
+        "type": "kreedo_assessment",
+        "id": "game_id",
+        "game_data": {},
+        "result": [{ "child_number": 1, "question": [{ "question": "", "correct": true, "correct_answer": "", "user_answer": "" }] }],
+        "questions": [
+            { "question_number": "1", "question_id": "CS_A_L0_3b", "start_time": "1742468173.397", "end_time": "1742468177.718", "correct_answer": "3", "user_answer": "2", "status": "wrong" },
+            { "question_number": "2", "question_id": "CS_A_L0_3f", "start_time": "1742468177.727", "end_time": "1742468181.818", "correct_answer": "3", "user_answer": "3", "status": "correct" },
+            { "question_number": "3", "question_id": "CS_A_L0_6o", "start_time": "1742468181.827", "end_time": "1742468184.815", "correct_answer": "there_was_dew_on_the_leaf", "user_answer": "i_saw_a_newt_outside", "status": "wrong" },
+            { "question_number": "4", "question_id": "CS_A_L0_2a", "start_time": "1742468184.825", "end_time": "1742468192.56", "correct_answer": "cube", "user_answer": "image_1560", "status": "wrong" },
+            { "question_number": "5", "question_id": "CS_A_L0_2_7", "start_time": "1742468192.569", "end_time": "1742468197.067", "correct_answer": "hill", "user_answer": "image_1560", "status": "wrong" },
+            { "question_number": "6", "question_id": "CS_A_L0_6j", "start_time": "1742468197.077", "end_time": "1742468200.059", "correct_answer": "the_dog_has_a_bone", "user_answer": "the_dog_has_a_bone", "status": "correct" }
+        ],
+        "children_data": [
+            {
+                "child_id": "1",
+                "attempt_id": "A123",
+                "start_time": "1742468147.194",
+                "end_time": "1742468171.406",
+                "incorrect_answers": "5",
+                "correct_answers": "1",
+                "time_taken_for_child": "24",
+                "questions": [
+                    { "question_number": "1", "question_id": "CS_A_L0_4k", "start_time": "1742468148.029", "end_time": "1742468154.651", "correct_answer": "9", "user_answer": "2", "status": "wrong" },
+                    { "question_number": "2", "question_id": "CS_A_L0_6f", "start_time": "1742468154.661", "end_time": "1742468157.732", "correct_answer": "the_toucan_has_a_long_beak", "user_answer": "the_spine_is_made_of_bones", "status": "wrong" },
+                    { "question_number": "3", "question_id": "CS_A_L0_2_8", "start_time": "1742468157.741", "end_time": "1742468160.948", "correct_answer": "mangrove", "user_answer": "image_1560", "status": "wrong" },
+                    { "question_number": "4", "question_id": "CS_A_L0_3o", "start_time": "1742468160.958", "end_time": "1742468165.48", "correct_answer": "1", "user_answer": "2", "status": "wrong" },
+                    { "question_number": "5", "question_id": "CS_A_L0_2c", "start_time": "1742468165.489", "end_time": "1742468168.266", "correct_answer": "prism", "user_answer": "image_1560", "status": "wrong" },
+                    { "question_number": "6", "question_id": "CS_A_L0_6a", "start_time": "1742468168.276", "end_time": "1742468171.389", "correct_answer": "she_paid_the_bill_at_the_shop", "user_answer": "she_paid_the_bill_at_the_shop", "status": "correct" }
+                ]
+            },
+            {
+                "child_id": "2",
+                "attempt_id": "A123",
+                "start_time": "1742468173.391",
+                "end_time": "1742468200.069",
+                "incorrect_answers": "4",
+                "correct_answers": "2",
+                "time_taken_for_child": "27",
+                "questions": [
+                    { "question_number": "1", "question_id": "CS_A_L0_3b", "start_time": "1742468173.397", "end_time": "1742468177.718", "correct_answer": "3", "user_answer": "2", "status": "wrong" },
+                    { "question_number": "2", "question_id": "CS_A_L0_3f", "start_time": "1742468177.727", "end_time": "1742468181.818", "correct_answer": "3", "user_answer": "3", "status": "correct" },
+                    { "question_number": "3", "question_id": "CS_A_L0_6o", "start_time": "1742468181.827", "end_time": "1742468184.815", "correct_answer": "there_was_dew_on_the_leaf", "user_answer": "i_saw_a_newt_outside", "status": "wrong" },
+                    { "question_number": "4", "question_id": "CS_A_L0_2a", "start_time": "1742468184.825", "end_time": "1742468192.56", "correct_answer": "cube", "user_answer": "image_1560", "status": "wrong" },
+                    { "question_number": "5", "question_id": "CS_A_L0_2_7", "start_time": "1742468192.569", "end_time": "1742468197.067", "correct_answer": "hill", "user_answer": "image_1560", "status": "wrong" },
+                    { "question_number": "6", "question_id": "CS_A_L0_6j", "start_time": "1742468197.077", "end_time": "1742468200.059", "correct_answer": "the_dog_has_a_bone", "user_answer": "the_dog_has_a_bone", "status": "correct" }
+                ]
+            }
+        ]
+    },
+    "param3": ""
+}

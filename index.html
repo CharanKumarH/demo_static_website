@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Iframe PostMessage Example</title>
+        <style>
+            iframe {
+                width: 100%;
+                height: 300px;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Iframe PostMessage Example</h1>
+        <iframe id="myIframe" src="build11/index.html"></iframe>
+        <p>Message from iframe: <span id="messageDisplay">None</span></p>
+
+        <script>
+            // Listen for messages from the iframe
+            window.addEventListener("message", function (event) {
+                console.log("Received message");
+                // Display the received message
+                try {
+                    var data = JSON.parse(event.data);
+                    // Consider only VExhibit sent message
+                    if (data.name.includes("VExhibit")) {
+                        document.getElementById("messageDisplay").textContent = JSON.stringify(data.param2.children_data);
+                    }
+                } catch (e) {
+                    console.log(e);
+                   
+
+                }
+            });
+        </script>
+    </body>
+</html>
